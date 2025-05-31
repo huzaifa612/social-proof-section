@@ -136,6 +136,7 @@ h4{
     body{
         background-image: url("images/bg-pattern-top-mobile.svg");
         overflow: visible;
+        overflow-x: hidden;
     }
     html {
         font-size: 90%;
@@ -147,7 +148,7 @@ h4{
         font-size: 2rem;
     }
     .hero-paragraph{
-        font-size: .9rem;
+        font-size: 1rem;
         padding: 0.15rem;
         word-break: break-word;
     }
