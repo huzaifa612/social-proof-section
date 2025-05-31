@@ -129,11 +129,10 @@ h4{
     color: hsl(300, 24%, 96%);
 
 }
-@media(max-width: 768px){
+@media(max-width: 668px){
     body{
-        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
-        overflow: scroll;
-        overflow-x: hidden;
+        background-image: url("images/bg-pattern-top-mobile.svg");
+        overflow: visible;
     }
     html {
         font-size: 90%;
