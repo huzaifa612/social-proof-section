@@ -2,7 +2,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-boxx;
+    box-sizing: border-box;
 }
 html {
   font-size: 100%;
@@ -145,6 +145,8 @@ h4{
     }
     .hero-left{
         display: block;
+        margin-left: auto;
+        margin-right:
     }
     .review-1, .review-2, .review-3{
          margin-left: 2.5rem;
