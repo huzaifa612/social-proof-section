@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-boxx;
 }
+html {
+  font-size: 100%;
+}
 body{
     background-color: hsl(0, 0%, 100%);
     background-image: url(images/bg-pattern-top-desktop.svg),url(images/bg-pattern-bottom-desktop.svg);
@@ -49,11 +52,17 @@ h1{
     padding-left: 1.25rem;
     border-radius: 0.5rem;
 }
-.review-2{
+.hero-left > div:nth-child(2) {
     margin-left: 2.5rem;
 }
-.review-3{
-     margin-left: 5rem;
+.hero-left > div:nth-child(3) {
+    margin-left: 5rem;
+}
+.review-1, .review-2, .review-3 {
+    transition: transform 0.3s ease;
+}
+.review-1:hover, .review-2:hover, .review-3:hover {
+    transform: scale(1.02);
 }
 img{
     width: 0.9375rem;
@@ -122,9 +131,11 @@ h4{
 }
 @media(max-width: 768px){
     body{
-        background-image: url(images/bg-pattern-top-desktop.svg);
-        background-position: 0 0;
-        overflow: visible;
+        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+        overflow: scroll;
+    }
+    html {
+        font-size: 90%;
     }
     .hero{
         display: block;
