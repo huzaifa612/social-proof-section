@@ -129,7 +129,10 @@ h4{
     color: hsl(300, 24%, 96%);
 
 }
-@media(max-width: 668px){
+@media(max-width: 768px){
+    html, body{
+        width: 100%;
+    }
     body{
         background-image: url("images/bg-pattern-top-mobile.svg");
         overflow: visible;
@@ -146,17 +149,14 @@ h4{
     .hero-left{
         display: block;
     }
-    .review-1, .review-2, .review-3{
+    .review-1, .review-2, .review-3, .box-1, .box-2, .box-3{
         margin-left: auto;
         margin-right: auto;
+        width: 90%;
     }
     .boxes{
         display: block;
         padding-bottom: 3.125rem;
-    }
-    .box-1, .box-2, .box-3{
-        margin-left: auto;
-        margin-right: auto;
     }
     .box-3{
         margin-top: 1.25rem;
