@@ -60,6 +60,7 @@ h1{
 }
 .review-1, .review-2, .review-3 {
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 .review-1:hover, .review-2:hover, .review-3:hover {
     transform: scale(1.02);
@@ -150,16 +151,34 @@ h4{
     margin: 0 auto;
   }
 
+  .hero-right {
+    width: 100%;
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+
   h1 {
     font-size: 2rem;
     margin: 1rem 0;
+    text-align: center;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    padding: 0 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .hero-paragraph {
     font-size: 1rem;
     padding: 0.5rem;
     word-break: break-word;
+    overflow-wrap: break-word;
     line-height: 1.4;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .hero-left {
@@ -204,3 +223,19 @@ h4{
     margin-top: 1rem;
   }
 }
+
+  html {
+    font-size: 90%;
+  }
+
+  body {
+    background-image: url("images/bg-pattern-top-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 1rem;
+  }
+
+  .hero {
+    display: 
