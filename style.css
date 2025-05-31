@@ -143,11 +143,23 @@ h4{
     .hero{
         display: block;
     }
+    h1{
+        font-size: 2rem;
+    }
+    .hero-paragraph{
+        font-size: 1rem;
+        padding: 0.15rem;
+        word-break: break-word;
+    }
     h1, .hero-paragraph{
         text-align: center;
     }
     .hero-left{
         display: block;
+    }
+    .review-1, .review-2,. review-3{
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .review-1, .review-2, .review-3, .box-1, .box-2, .box-3{
         margin-left: auto;
