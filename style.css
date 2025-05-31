@@ -146,7 +146,7 @@ h4{
     .hero-left{
         display: block;
         margin-left: auto;
-        margin-right:
+        margin-right: auto;
     }
     .review-1, .review-2, .review-3{
          margin-left: 2.5rem;
